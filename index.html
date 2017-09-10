@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<meta charset="UTF-8">
+  	<title>Dog Breed Search</title>
+
+  	<!  Add jQuery library link>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  	<! Add reset link>
+  	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+  	<! Add bootstrap link>
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+  	<! Add stylesheet link>
+  	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Dog Breed Search</h1>
+
+    <!-- Dog Breeds Show Up Here -->
+    <div id="dogs-view"></div><br>
+
+    <!-- Rendered Buttons will get Dumped Here  -->
+    <div class="buttons-view"></div>
+
+    <form class="dogs-form">
+      <label for="dogs-input">Search for a dog breed</label>
+      <input type="text" id="dogs-input">
+
+      <!-- Button triggers new movie to be added -->
+      <input id="add-dog" type="submit" value="Search">
+    </form> 
+  </div>
+
+<script type="text/javascript" src="assets/javascript/app.js"></script>
+
+</body>
+</html>
